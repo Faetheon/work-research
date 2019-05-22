@@ -1,29 +1,31 @@
-Twiddler:
-  Give students helpful css.
+Meeting 0:
+  Twiddler sprint:
+    Give students helpful css.
 
-Whiteboarding:
-  https://awwapp.com/#
+  Whiteboarding sprint:
+    https://awwapp.com/#
 
-Scopes and closures:
-  Get new slides to help understand scopes.
+  Scopes and closures sprint:
+    Get new slides to help understand scopes.
 
-Go through how to return.
+  Go through how to return.
 
-Seperate out the scopes sprint from the closures sprint. 
+  Seperate out the scopes sprint from the closures sprint. 
 
-Add notes as to where to put the scopes sprint
+  Add notes as to where to put the scopes sprint
 
-We need toy problems and questions as well as a sprint for scopes.
+  We need toy problems and questions as well as a sprint for scopes.
 
-Proof-read the learn app.
+  Proof-read the learn app.
 
 
-Step 1:
+Meeting 1:
   Look at the list on trello and gather resources for scopes closures execution contexts and gather a pool of them to review.
   Look into converting current code into ES6.
 
-Step 2:
-  1. Scopes and closures slides.
+
+Meeting 2:
+  1. Nuggets of information on scopes and closures for a slide deck.
 
   1.a Think of ideas for a programming exercise.
 
