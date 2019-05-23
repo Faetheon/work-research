@@ -1,0 +1,37 @@
+Scopes are like a one way glass, you can see out of them... But not into them.
+A closure is when a function you return retains access to variables in its parent scope.
+
+
+
+
+Except in this case it's more like a one way forcefield and you can only get stuff from inside of it while the zombies on the outside can't touch you.
+
+let food = ["Bananas", "Milk", "Cereal", "Bread", "Special Cake"];
+let zombies = {
+  hordeCount: 1,
+  eat: function(you) {you = zombie, zombies.hordeCount++}
+};
+
+function forcefield() {
+  const you = {name: 'Adam', age: 24};
+  you.food = food; // You get all the food :)
+}
+
+zombies.eat(you); // Error: That human is protected.
+
+Closure is when you use a scope to retain access to a local value inside of another scope.
+Your friend George wants to steal your special cake so now you have to make a safe.
+
+const you = {name: 'Adam', age: 24, food: [], password: '1234'};
+const george = {
+  name: 'George',
+  age: 26,
+  steal: function(you) {george.food.push(you.food.pop())},
+  food: ["Cherry Cake","Vanilla Cake","Chocholate Cake"]
+};
+function safe() {
+  // Now if George tries to steal your food before you put it in the safe he could... But he is lazy.. so he doesn't.
+  return function() {
+    you.food = food;
+  }
+}
